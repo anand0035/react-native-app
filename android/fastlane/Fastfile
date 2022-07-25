@@ -16,6 +16,11 @@
 default_platform(:android)
 
 platform :android do
+    desc "testing"
+    lane :tests do
+      gradle(task: "test")
+    end
+
   desc "generate build"
   lane : build do
     gradle(
