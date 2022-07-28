@@ -16,11 +16,11 @@ pipeline{
 
     stages
     {
-        stage('npm install'){
-            steps{
-                bat 'npm install'
-            }
-        }
+//         stage('npm install'){
+//             steps{
+//                 bat 'npm install'
+//             }
+//         }
 //         stage('testing your code'){
 //             steps{
 //                 bat 'npm run test'
