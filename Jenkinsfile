@@ -1,7 +1,5 @@
 pipeline{
-    agent {
-            label '!windows'
-        }
+    agent any
     environment {
             // Fastlane Environment Variables
 //             PATH = "C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/fastlane-2.208.0/bin" +
