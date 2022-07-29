@@ -1,0 +1,14 @@
+
+app_name = ENV["APP_NAME"]
+
+default_platform(:android)
+
+platform :android do
+  desc "generate build"
+  lane :build do
+    gradle(
+      task:"assemble",
+      project_dir:"D:/react-native-app/android"
+    )
+  end
+end
