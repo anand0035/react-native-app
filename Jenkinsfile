@@ -4,8 +4,8 @@ pipeline{
             // Fastlane Environment Variables
 
 //             APP_NAME = "DEMO_APP"
-            LC_ALL = "en_US.UTF-8"
-            LANG = "en_US.UTF-8"
+//             LC_ALL = "en_US.UTF-8"
+//             LANG = "en_US.UTF-8"
 
         }
 
@@ -23,7 +23,6 @@ pipeline{
 //         }
         stage('build android'){
             steps{
-                bat 'cd android'
                 bat 'fastlane build android'
             }
         }
