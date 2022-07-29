@@ -3,7 +3,7 @@ pipeline{
     environment {
             //Fastlane Environment Variables
 
-//             APP_NAME = "DEMO_APP"
+           APP_NAME = "DEMO_APP"
             LC_ALL = "en_US.UTF-8"
             LANG = "en_US.UTF-8"
 
