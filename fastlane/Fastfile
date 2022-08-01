@@ -8,7 +8,7 @@ platform :android do
   lane :build do
     gradle(
       task:"assemble",
-      project_dir:"D:/react-native-app/android"
+      project_dir:"./android"
     )
   end
 end
