@@ -6,9 +6,12 @@ default_platform(:android)
 platform :android do
   desc "generate build"
   lane :build do
-    gradle(
-      task:"assemble",
-      project_dir:"./android"
-    )
+      gradle(
+        task: "clean"
+      )
+#     gradle(
+#       task:"assemble",
+#       project_dir:"./android"
+#     )
   end
 end
