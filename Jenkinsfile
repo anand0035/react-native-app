@@ -23,8 +23,8 @@ pipeline{
 //         }
         stage('build android'){
             steps{
-                echo "ruby -v"
-                bat "fastlane android build"
+                sh "echo ruby -v"
+                sh "fastlane android build"
             }
         }
     }
