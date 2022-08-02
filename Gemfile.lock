@@ -155,6 +155,7 @@ GEM
       xcodeproj (>= 1.13.0, < 2.0.0)
       xcpretty (~> 0.3.0)
       xcpretty-travis-formatter (>= 0.0.3)
+    fastlane-plugin-jenkins_job_config (0.1.8)
     ffi (1.15.5)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
@@ -256,7 +257,7 @@ GEM
     uber (0.1.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8.2-x64-mingw-ucrt)
+    unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
     webrick (1.7.0)
     word_wrap (1.0.0)
@@ -279,6 +280,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods (~> 1.11, >= 1.11.2)
   fastlane
+  fastlane-plugin-jenkins_job_config
 
 RUBY VERSION
    ruby 3.1.2p20
