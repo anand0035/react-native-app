@@ -23,8 +23,8 @@ pipeline{
 //         }
         stage('build android'){
             steps{
-                sh "echo ruby -v"
-                sh "fastlane android build"
+                 bat 'icacls "android/gradlew" /grant Users:F'
+                bat "Fastlane android build"
             }
         }
     }

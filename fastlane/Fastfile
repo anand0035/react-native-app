@@ -6,7 +6,8 @@ platform :android do
   desc "generate build"
   lane :build do
     gradle(
-      task: "clean"
+      task: "clean",
+      project_dir: "./android/"
     )
   end
 end
