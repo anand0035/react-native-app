@@ -5,9 +5,7 @@ default_platform(:android)
 platform :android do
   desc "generate build"
   lane :build do
-      gradle(
-        task: "ruby_version"
-      )
+       ruby_version
   end
   lane :build do
     gradle(
